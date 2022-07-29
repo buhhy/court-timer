@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Court Tools</title>
+  <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+  <form class="form" onsubmit="updateSettings(event)">
+    <label class="input-label" for="inputCourtCount">Number of courts:</label>
+    <input class="input-box" placeholder="number of courts" id="inputCourtCount">
+    <label class="input-label" for="inputWarmupTime">Warmup time in minutes:</label>
+    <input class="input-box" placeholder="warmup time" id="inputWarmupTime">
+    <input type="submit" value="Update">
+  </form>
+  <div id="timerContainer" class="timer-container">
+
+  </div>
+  <script type="text/javascript" src="root.js"></script>
+</body>
+</html>

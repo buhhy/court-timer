@@ -1,0 +1,55 @@
+html, body {
+  width: 100%;
+}
+
+.timer-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.court-wrapper {
+  background-color: rgb(228, 228, 228);
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 15px;
+  width: 120px;
+}
+
+.court-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.change-shuttle-btn {
+  width: 25px;
+}
+
+.action-btn {
+  margin-top: 8px;
+}
+
+.court-title {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.timer-text {
+  font-size: 30px;
+  margin: 5px 0 10px;
+  text-align: center;
+}
+
+.timer-text.blank {
+  color: grey;
+}
+
+.timer-text.done {
+  color: red;
+}
+
+.timer-text.running {
+  color: green;
+}
